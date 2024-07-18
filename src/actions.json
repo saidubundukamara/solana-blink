@@ -1,0 +1,33 @@
+{
+    "icon": "http://localhost:3000/img/mario.JPG",
+    "label": "Transfer",
+    "description": "Send me some SOL 🙃",
+    "title": "Transfer Native SOL",
+    "links": {
+        "actions": [
+            {
+                "label": "Send 1 SOL 🙂",
+                "href": "http://localhost:3000/api/v1/blink?amount=1"
+            },
+            {
+                "label": "Send 5 SOL 😎",
+                "href": "http://localhost:3000/api/v1/blink?amount=5"
+            },
+            {
+                "label": "Send 10 SOL 🫣",
+                "href": "http://localhost:3000/api/v1/blink?amount=10"
+            },
+            {
+                "label": "Send SOL 😋",
+                "href": "http://localhost:3000/api/v1/blink?amount=",
+                "parameters": [
+                    {
+                        "name": "amount",
+                        "label": "Enter the amount of SOL to send",
+                        "required": true
+                    }
+                ]
+            }
+        ]
+    }
+}
