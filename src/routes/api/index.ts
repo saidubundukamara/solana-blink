@@ -76,8 +76,6 @@ router.post("/action", async (req, res) => {
          throw `account may not be rent exmpted`;
      }
 
-     console.log('Account: ', account, 'to pub: ', toPubkey)
-
  
      const transaction = new Transaction();
  
